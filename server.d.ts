@@ -1,6 +1,6 @@
-import { createServer } from 'http';
-import { parse } from 'url';
-import next from 'next';
+const { createServer } = require('http')
+const { parse } = require('url')
+const next = require('next')
 const { PORT = 3000 } = process.env;
 const app = next({ PORT })
 const handle = app.getRequestHandler()
