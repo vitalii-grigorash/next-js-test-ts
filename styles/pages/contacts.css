@@ -1,0 +1,43 @@
+.contacts {
+    font-family: 'Zen Dots', cursive;
+    display: flex;
+    flex-direction: column;
+}
+.contacts__title {
+    font-size: 28px;
+    line-height: 140%;
+    margin: 100px auto 0;
+    color: chocolate;
+}
+.contacts__button {
+    font-family: 'Karantina', cursive;
+    width: 200px;
+    height: 50px;
+    margin: 50px auto 0;
+    background-color: chocolate;
+    color: black;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.contacts__button:hover {
+    cursor: pointer;
+    background-color: rgb(182, 91, 26);
+}
+.contacts__button:active {
+    box-shadow: inset 6px 7px 6px rgba(0, 0, 0, 0.4);
+}
+.contacts__button:focus {
+    outline: none;
+}
+@media screen and (max-width: 550px) {
+    .contacts__title {
+        margin: 40px auto 0;
+    }
+    .contacts__button {
+        margin: 40px auto 0;
+    }
+}

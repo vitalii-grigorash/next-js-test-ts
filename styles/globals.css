@@ -1,0 +1,25 @@
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    color: #FFFFFF;
+    min-width: 300px;
+    background-color: black;
+}
+
+@import url(./vendor/normalize.css);
+@import url(./fonts/fonts.css);
+
+@import url(./pages/main.css);
+@import url(./pages/about-us.css);
+@import url(./pages/contacts.css);
+@import url(./pages/error.css);
+
+@import url(./components/header.css);
+@import url(./components/footer.css);
+@import url(./components/feedback-form.css);
+@import url(./components/success-popup.css);

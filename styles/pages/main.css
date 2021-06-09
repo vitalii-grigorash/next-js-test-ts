@@ -1,0 +1,16 @@
+.main {
+    font-family: 'Zen Dots', cursive;
+    display: flex;
+    flex-direction: column;
+}
+.main__title {
+    font-size: 28px;
+    line-height: 140%;
+    margin: 100px auto 0;
+    color: chocolate;
+}
+@media screen and (max-width: 550px) {
+    .main__title {
+        margin: 40px auto 0;
+    }
+}

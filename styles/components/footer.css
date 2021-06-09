@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+}
+.footer__title {
+    font-family: 'Zen Dots', cursive;
+    font-size: 30px;
+    line-height: 130%;
+    margin: 60px auto 0;
+    color: chocolate;
+}
+@media screen and (max-width: 550px) {
+    .footer__title {
+        margin: 40px auto 0;
+    }
+}

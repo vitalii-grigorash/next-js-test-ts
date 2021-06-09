@@ -1,0 +1,21 @@
+{
+  "name": "next-js",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.d.ts",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node server.d.ts"
+  },
+  "dependencies": {
+    "next": "10.1.3",
+    "nodemailer": "^6.4.18",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.9",
+    "typescript": "^4.3.2"
+  }
+}
